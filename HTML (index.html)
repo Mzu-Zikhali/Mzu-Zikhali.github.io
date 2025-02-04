@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyTravel</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Explore the World with Us</h1>
+      <p>Discover unforgettable destinations and experiences.</p>
+      <button onclick="alert('Booking feature coming soon!')">Book Now</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are passionate about travel and helping you find your dream destination.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="https://via.placeholder.com/150" alt="Flights">
+        <h3>Flight Booking</h3>
+        <p>Book flights to anywhere in the world.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://via.placeholder.com/150" alt="Hotels">
+        <h3>Hotel Reservations</h3>
+        <p>Find the perfect accommodation for your trip.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://via.placeholder.com/150" alt="Tours">
+        <h3>Tour Packages</h3>
+        <p>Experience guided tours tailored to your preferences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="packages">
+    <h2>Popular Packages</h2>
+    <div class="package-grid">
+      <div class="package-card">
+        <img src="https://via.placeholder.com/300" alt="Package 1">
+        <h3>African Safari</h3>
+        <p>7 days | $1500</p>
+        <button onclick="alert('Package details coming soon!')">View Details</button>
+      </div>
+      <div class="package-card">
+        <img src="https://via.placeholder.com/300" alt="Package 2">
+        <h3>Beach Getaway</h3>
+        <p>5 days | $1200</p>
+        <button onclick="alert('Package details coming soon!')">View Details</button>
+      </div>
+      <div class="package-card">
+        <img src="https://via.placeholder.com/300" alt="Package 3">
+        <h3>City Tour</h3>
+        <p>4 days | $1000</p>
+        <button onclick="alert('Package details coming soon!')">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit" onclick="alert('Thank you for contacting us!')">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 My Travel Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
